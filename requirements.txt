@@ -22,3 +22,5 @@ netlify-py
 Markdown
 xhtml2pdf
 groq
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+transformers>=4.50.0 # not directly required, pinned by Snyk to avoid a vulnerability
