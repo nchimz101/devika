@@ -22,3 +22,4 @@ netlify-py
 Markdown
 xhtml2pdf
 groq
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
