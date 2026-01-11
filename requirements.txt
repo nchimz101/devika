@@ -1,7 +1,7 @@
 flask
 flask-cors
 toml
-urllib3==1.26.15
+urllib3==2.6.3
 requests
 colorama
 fastlogging
@@ -22,3 +22,5 @@ netlify-py
 Markdown
 xhtml2pdf
 groq
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
