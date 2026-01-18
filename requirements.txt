@@ -22,3 +22,5 @@ netlify-py
 Markdown
 xhtml2pdf
 groq
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pypdf>=6.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
